@@ -1,0 +1,82 @@
+html {
+    font-size: 16px;
+
+}
+
+body{
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background: linear-gradient(120deg, #3556c0, rgb(38, 104, 12));
+}
+
+/* Pixel Based Header */
+.hero {
+    width: 800px;
+    margin: 40px auto;
+    padding: 24px;
+    background: rgb(219, 194, 194);
+    border-radius: 12px;
+    text-align: center;
+}
+.main-heading {
+    font-size: 62px;
+}
+
+.subtitle {
+    font-size: 16px;
+}
+
+.em-demo {
+    font-size: 29px;
+    margin: 3rem auto;
+    width: 70%;
+    background: whitesmoke;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.em-demo p {
+    font-size: 1.5em ;
+}
+
+.percent-demo {
+    display: flex;
+    justify-content: center ;
+}
+
+.percent-box {
+    width: 50%;
+    padding: 2rem;
+    background: rgb(196, 109, 109);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+.viewpoint-demo {
+    width: 80vmin;
+    max-width: 90vmax;
+    height: 60vh;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    color:blue;
+    border-radius: 1rem;
+    background:linear-gradient(120deg,#2628b3,#9e147c) ;
+ 
+}
+
+.form-demo {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.text-input {
+    width: 30ch;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.6rem;
+    border: 1px solid #ccc;
+}

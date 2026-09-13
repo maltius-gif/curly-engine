@@ -1,0 +1,85 @@
+/* h1{ */
+    /* color:brown; */
+    /* font-size: 30px; */
+/* } */
+
+/* p{ */
+    /* color:rgb(10, 10, 10); */
+    /* font-size: 20px; */
+
+/* } */
+
+/* .highlight{ */
+    /* color: blue; */
+/* } */
+
+
+/* *{ */
+    /* margin: 0; */
+    /* padding: 0; */
+/* } */
+
+/* .parent{ */
+    /* background-color: green; */
+    /* height: 100px; */
+/* } */
+
+
+/* .child{ */
+    /* width: 50%; */
+    /* background-color: brown; */
+    /* height: 90px */
+
+/* } */
+
+/* *{ */
+    /* margin: 0; */
+    /* padding: 0; */
+/* } */
+
+/* .parent{ */
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* background-color: hsl(33, 74%, 46%); */
+/* } */
+
+
+
+
+/* .box{ */
+    /* width: fit-content; */
+    /* background-color: crimson; */
+    /* padding: 10px; */
+    /* border:5px solid yellow; */
+
+/* } */
+
+/* .first-box{ */
+    /* width: fit-content; */
+    /* background-color: rgb(10, 214, 61); */
+    /* margin: 20px */
+/* } */
+
+
+
+
+
+
+
+
+/* .parent{ */
+    /* width: 300px; */
+    /* height: 300px; */
+    /* background-color: rgb(192, 21, 49); */
+/* } */
+/* .box{ */
+    /* width: fit-content; */
+    /* height: 100%; */
+    /* background-color:darkblue; */
+
+    /* max-width: 400px; */
+    /* min-width: 200px; */
+
+    /* max-height: 300px; */
+    /* min-height: 100px; */
+/* } */

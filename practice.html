@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content="width=device-width" initial scale="1.0">
+    <title>Practical</title>  
+    <style>
+        body{
+            background-color: rgb(14, 122, 68);
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        nav{
+            max-width: 600px;
+            margin: 5px auto;
+            padding: 20px;
+            margin-left: 85px;
+            margin-top: 40px;
+            margin
+        }
+
+        h1{
+            margin-bottom: 7px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        input [type="email"]
+        input [type="Country"]
+        textarea,
+
+        select{
+            display:block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 8px;
+            font-size: 1rem;
+        }
+        input [type="number"] {
+            width: 80px;
+            padding: 2px;
+            box-sizing: border-box;
+            display: block;
+            
+        }
+        fieldset{
+            margin-top: 10px;
+        }
+        fieldset div{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        fieldset label{
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            margin: 0;
+        }
+    </style> 
+  
+   
+    </head>
+    <body>
+        <header>
+            <h3>Exco@victor.com</h3>
+            <nav>
+                <a href="#">Home </a> 
+                <a href="#">About</a>
+                <a href="#"> Portfolio</a>
+                <a href="#"> Service</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1><strong>You're  Welcome to my Website</strong> </h2>
+                    <article>
+                        <h3>Wait 🤚</h3>
+                        <p>Have you ever figure out that you can learn tech in 2026 without problem?</p>
+
+                    </article>
+
+            </section>
+            <aside>
+                <h4>What i would recommended for you in year 2026 are:</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSSL</li>
+                    <li>JAVASCRIPTL</li>
+                    <li>REACT</li>
+                    <li>PHYTON</li>
+                    <li>GIT&GITHUB</li>
+                </ul>
+            </aside>
+        </main>
+        <h4>If you're interested kindly fill the form below</h4>
+        <form>
+            <label for="name">Name</label>
+            <input type="name" name="name">
+            <label for="email">Email Adress</label>
+            <input type="email" id="email" name="email">
+
+            <label for="age">Age</label>
+            <input type="number" min="10" max="30">
+
+            <label for="country">Country</label>
+            <select>
+                <option>Nigeria</option>
+                <option>China</option>
+                <option>American</option>
+                <option>Uganda</option>
+                <option>South Africa</option>
+                <option>United Kingdom</option>
+            </select>
+            </option>
+
+            <label for="What'sApp">What'sApp Number</label>
+            <input type="number">
+            <label>Language</label>
+            <input list="language">
+
+            <datalist id="language">
+                <option value="Javascript">
+
+                    <option value="phyton">
+                    </option>
+                </option>
+            </datalist>
+            <fieldset>
+                <legend>Experience Level</legend>
+                <div>
+                    <label><input type="radio" name="level" value="Beginners">
+                    Beginners
+
+                </label>
+                <label>
+                    <label><input type="radio" name="level" value="Intermediate">
+                    Intermediate
+                    </label>       
+                </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend> Skills to learn</legend>
+                <div>
+                    <label><input type="checkbox" name="skills" value="HTML">HTML</label>
+                    <label><input type="checkbox" name="skills" value="CSS">CSS</label>
+                    <label><input type="checkbox" name="skills" value="JAVASCRIPT">JAVASCRIPT</label>
+                    <label><input type="checkbox" name="skills" value="PHYTON">PHYTON</label>
+                </div>
+            </fieldset>
+
+            <label for="About">Tell us about you</label>
+            <textarea id="about"name="about"row="5"></textarea>
+
+            <button type="Submit">Submit</button>
+        </form>
+        <footer>
+            <p>&copy; victor-inioluwa</p>
+        </footer>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

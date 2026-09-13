@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8"
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>CHURCH</title>
+        <style>
+            body{
+                font-family:'Poppins' sans-serif;
+            }
+
+
+
+
+
+            body{
+                max-width: 500px;
+                margin: 40px auto;
+                padding: 20px;
+                font-family: Georgia, 'Times New Roman',serif;
+                background-color: rgb(232, 235, 229);
+            }
+            h1{
+                margin-bottom: 24px;
+            }
+            button[type="Submit"] {
+                background-color: rgb(72, 72, 114);
+                max-height: 300px;
+                margin-block: 5px;
+                padding: 10px;
+                font-size: 18px;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+            label{
+                display: block;
+                margin-top: 16px;
+                margin-bottom: 6px;
+                font-weight: bold;
+            }
+            input[type="email"],
+            input[type="password"],           
+            input[type="date"],
+            input[type="color"] {
+                margin-bottom: 6px;
+            }
+            textarea,
+            select {
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                font-size: 1rem;
+            }
+            input[type="number"] {
+                width: 80px;
+                padding: 2px;
+                box-sizing: border-box;
+                display: block;
+            }
+
+
+            fieldset{
+                margin-top: 16px;
+            }
+
+            fieldset div{
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                
+                
+            }
+            fieldset label{
+                display: flex;
+                align-items: center;
+                gap: 2px;
+                font-weight: normal;
+                margin: 0;
+                
+            }
+
+               
+        </style>
+        
+    </head> 
+    <body>
+        <h1>Welcome to Christian Home🥰</h1>
+        <form> 
+            <label for="email">Email Address </label>
+            <input type="email" id="email" name="email" required>
+
+            <label>Password</label>
+            <input type="Password" required>
+
+            <label>Age</label>
+            <input type="number"  min="15" max="40">
+
+            <label for="Birth Date">Birth Date</label>
+            <input type="Date">
+
+            <label>Language</label>
+            <input list="language">
+
+            <datalist id="language">
+                <option value="Javascript">
+                    <option value="phyton">
+                        <option value="react"></option>
+                        <option value="Ns.node"></option>
+                    </option>
+                </option>
+            </datalist>
+
+            <label for="color">Favorite Color </label>
+            <input type="color" id="color" name="color">
+
+            <label>Upload Resume</label>
+            <input type="file">
+
+            <label>Skill Level</label>
+            <input type="range" min="0" max="100">
+
+            <fieldset> 
+                <legend> Experience Level</legend>
+                <div>
+                    <label><input type="radio" name="level" value="100"> 
+                    100lv
+                </label>
+                    <label><input type="radio" name="level" value="200"> 
+                    200lv
+                </label>
+                    <label><input type="radio" name="level" value="300"> 
+                    300lv
+                </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Department</legend>
+                <div>
+                    <label><input type="checkbox" name="department" value="Drummer">Drummer</label>
+                    <label><input type="checkbox" name="department" value="Singer">Choir</label>
+                    <label><input type="checkbox" name="department" value="Love % Care">Love & Care</label>
+                    <label><input type="checkbox" name="skills" value="Prayer">Prayer</label>
+                    <label><input type="checkbox" name="skills" value="Content">Content creation</label>
+
+                </div>
+            </fieldset>
+
+            <label for"About">About You</label>
+            <textarea id="about" name="about" row="5"></textarea>
+
+            <button type="Submit">Join Now</button>
+        </form>
+    </body> 
+</html>
